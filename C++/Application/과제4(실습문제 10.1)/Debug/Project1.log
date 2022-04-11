@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\dkdud\onedrive\바탕 화면\project1\소스.cpp(9): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\dkdud\onedrive\바탕 화면\project1\소스.cpp(10): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Project1.vcxproj -> C:\Users\dkdud\OneDrive\바탕 화면\Project1\Debug\Project1.exe

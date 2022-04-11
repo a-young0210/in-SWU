@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>냐암 - 세상은 넓고 맛있는 건 많다</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <link rel="stylesheet"  href="../src/css/lightslider.css"/>
+    <style>
+    a.no-uline {
+      text-decoration : none;
+      color : black; }
+
+    #logo {
+      float : left;
+      padding : 0px 20px 0px 580px;
+      width : 400px; height : 300px;
+    }
+
+    #search {
+      width : 500px;
+      height : 20px;
+      padding-left: 500px;
+      margin-left : 480px;
+      margin-bottom: 10px;
+    }
+    #searchText {
+      text-align: left;
+      background-color:#FF9393;
+      margin-left: 0px;
+    }
+    #list {
+      width: 600px;
+      padding: 5px;
+      margin-left: 480px;
+      margin-top: 100px;
+      text-align: center;
+    }
+    #list li {
+      display: inline;
+    }
+
+    #list2 {
+      width: 600px;
+      padding: 1px;
+      margin-left : 900px;
+      text-align: center;
+    }
+    #list2 li {
+      display: inline;
+    }
+
+    	ul{
+			list-style: none outside none;
+		    padding-left: 0;
+            margin: 0;
+		}
+
+    .box2 {
+      margin-left: 300px;
+      margin-top: -68px;
+      width : 150px; height: 80px;
+      border-width: medium;
+      border-style: solid;
+      border-color: black;
+      text-align: center;
+    }
+
+    #loginer
+    {
+      padding: 20px;
+      margin-left: 70px;
+      text-align: center;
+    }
+    #form
+    {
+      margin-top : 50px;
+      text-align: center;
+      width: 50%;
+      display: inline-block;
+    }
+
+
+
+    </style>
+</head>
+<body style="background-color: #FFFFD4">
+  <ul id="list">
+    <li><a href="HOME.html" class="no-uline">NEW | </a></li>
+    <li><a href="BEST.html" class="no-uline">BEST |</a> </li>
+    <li<a href="LOGIN.html" class="no-uline">MY PAGE </a></li>
+  </ul>
+  <div id="search"><form autocomplete=off>
+    <label>SEARCH
+      <input id="searchText">
+      <input type="button" value="검색"  onclick="location.href='SEARCH.html'"></label>
+    </form></div>
+  <ul id="list2">
+    <li><a href="LOGIN.html" class="no-uline">LOG IN |</a></li>
+    <li><a href="JOIN.html" class="no-uline"><b>JOIN</b></a></li>
+  </ul>
+  <div class="box2">
+    <h2>JOIN</h2>
+  </div>
+  <div>
+  <a href="HOME.html"><img id="logo" src="logo.jpg"></a>
+</div>
+
+     <div id="loginer">
+       <div id="form">
+         <table style="margin-left : 170px">
+           <tr>
+             <td>아이디 </td>
+             <td><input type="id"></td>
+           </tr>
+           <tr>
+             <td>비밀번호 </td>
+             <td><input type="password"></td>
+           </tr>
+           <tr>
+             <td>비밀번호 확인 </td>
+             <td><input type="password"></td>
+           </tr>
+            <td>성별 </td>
+            <td><input id="man" type="radio" name="gender" value="m">
+            <label for="man">남자</label>
+            <input id="woman" type="radio" name="gender" value="w">
+            <label for="woman">여자</label>
+          </td>
+
+         </table>
+         <br>
+          <input type="button" value="회원가입" onclick="location.href='LOGIN.html'">
+         </form>
+       </div>
+     </div>
+
+
+    <footer>
+       <ul id="list">
+           <li>도움말 &nbsp;&nbsp;&nbsp;&nbsp;</li>
+           <li>의견 보내기 &nbsp;&nbsp;&nbsp;&nbsp;</li>
+           <li>개인정보처리방침 &nbsp;&nbsp;&nbsp;&nbsp;</li>
+           <li>약관 </li>
+       </ul>
+   </footer>
+</body>
