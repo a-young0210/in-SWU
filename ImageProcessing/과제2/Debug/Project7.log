@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\dkdud\source\repos\project7\소스.cpp(7): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+c:\users\dkdud\source\repos\project7\소스.cpp(185): warning C4154: 배열 식을 삭제했습니다. 포인터로 변환이 제공됩니다.
+  Project7.vcxproj -> C:\Users\dkdud\source\repos\Project7\Debug\Project7.exe
